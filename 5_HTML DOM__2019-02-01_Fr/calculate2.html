@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calculate2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="cntrMainDiv">
+        <p><b>Calculations</b></p>
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+
+        <h1></h1>
+
+        <div id="numResult" style="width: 160px; background-color: aquamarine">result of calculation</div>
+        
+        <h1></h1>
+        
+        <!-- Example with Event in HTLM  and  Handler in JS by parameters -->
+        <input type="button" value="+" onclick="sum(num1.value, num2.value, numResult)">
+
+        <!-- Example with Event in HTLM  and  Handler in JS by declaration (without parameters) -->
+        <input type="button" value="-" onclick="sub()">
+
+        <!-- Examples with Event and Handler in JS -->
+        <input type="button" value="*" id="mulBtn">
+        <input type="button" value="/" id="divBtn">
+    </div>
+
+    <script src="calculate2.js"></script>     
+
+</body>
+
+</html>

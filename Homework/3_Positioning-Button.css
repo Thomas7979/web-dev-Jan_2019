@@ -56,11 +56,13 @@ div {
 
 .center-left {
     position: relative;
-    margin-top: 30 auto;
+    left: 0;
+    margin: 0;
 }
 
 .center-bottom {
+    display: inline-block;
     position: relative;
-    bottom: -247px;
-    margin: 0 auto;
+    bottom: 0;
+    margin: 0% auto;
 }
