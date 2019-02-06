@@ -20,8 +20,8 @@
 	<!-- Defines the documents encoding character set (Multi-lingual Universal Transformation Format) -->
 	<meta charset="UTF-8">
 	
-	<!-- Redriects the browser to another page after 3 seconds
-	<meta http-equiv="refresh" content= "3; url='redirect.html'"/> -->
+	<!-- Redriects the browser to another page after 3 seconds/> 
+	<meta http-equiv="refresh" content= "3; url='redirect.html'"  -->
 	
 	<!-- Description for your page. Shouldn't be longer then 200 characters -->
 	<meta name="description"
@@ -43,7 +43,11 @@
 	
 	<!-- Must come before any other link tags -->
 	<!-- Defines a default location for all links on a page for browsers -->
-	<base href="http://localhost/html5/"/>
+	<!-- localhost can be declared in two ways:  a)  or  b)  -->
+ 	  <!-- a)  after localhost declare full path  -->
+	<!-- <base href="http://localhost/.../html5/"/> -->
+	  <!-- b)  only declare  ./   that means current directory  -->
+	<base href="./"/>
 	
 	<!-- Defines the location of a style sheet -->
 	<!-- Style sheets have replaced HTML styling features from the past -->
