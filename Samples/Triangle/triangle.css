@@ -1,0 +1,46 @@
+body {
+    margin-top: 20px;
+    margin-left: 70px;
+    padding 0;
+}
+
+header {
+    padding: 30px 40px 50px;
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+ul {
+   list-style-type: none; 
+}
+
+h1 {
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.element {
+    display: inline-flex;
+}
+
+.Triangle {
+    height: 0;
+    width: 0;
+    margin-right: 3em;
+    margin-bottom: 4em;
+}
+
+.top-left {
+    border-top: 100px solid rgb(224, 127, 127);
+    border-right: 100px solid transparent;
+}
+
+.bottom-right {
+    border-top: 100px solid transparent;
+    border-right: 100px solid rgb(224, 127, 127);
+}
+
+.bottom-left {
+    border-top: 100px solid transparent;
+    border-left: 100px solid rgb(224, 127, 127);
+}
