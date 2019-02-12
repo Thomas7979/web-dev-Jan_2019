@@ -33,7 +33,7 @@ h1 {
 .top-left {
     border-top: 100px solid rgb(224, 127, 127);
     border-right: 100px solid transparent;
-}
+}   
 
 .bottom-right {
     border-top: 100px solid transparent;
