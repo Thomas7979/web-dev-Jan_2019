@@ -12,11 +12,10 @@ body {
     padding-top: 1px;
     width: 300px;
     height: 205px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     background: #fff;
-    border: 1px solid;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(74, 121, 153 .5);
 }
 
 .username {
@@ -84,5 +83,9 @@ label span {
 
 .button:hover {
     background: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+label span:hover {
     font-weight: bold;
 }
