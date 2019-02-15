@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    margin: 150px auto;
+    width: 500px;
+    height: 50%;
+}
+
+.sub-container-1 {
+    width: 350px;
+    height: 40%;
+    margin: 40px auto 0;
+    padding: 35px 20px;
+    background-color: #fff;
+
+}
+.sub-container-1-1 img {
+    width: 45%;
+    margin-bottom: 5px;
+    margin-left: 55px;
+}
+
+.username, 
+.password {
+    width: 230px;
+    height: 40px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 247px;
+    height: 35px;
+    margin-left: 57px;
+    background-color:#3897f0;
+    color: #eee;
+    font-size: 14px;
+}
+
+.sub-container-2 {
+    margin: 14px auto;
+    width: 390px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}   
+
+.sub-container-2-1 {
+    padding-left: 70px;
+}
+
+
+/*  effects     ----------------------------------------------- */
+
+.btn:hover {
+    background-color:#0385ff;
+}
