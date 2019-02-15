@@ -13,18 +13,18 @@
 .content1 {
     width: 300px;
     height: 400px;
-    margin: 30px auto;
+    margin: 40px auto;
     border: 1px solid blue;
-    text-align: center;
 }
 
 .content1 ul {
     list-style-type: none;
-    padding-top: 50px; 
+    padding-top: 50px;
+    text-align: center;
  }
 
  .content1 ul li {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
  }
 
 .input-1 {
@@ -39,6 +39,5 @@
 }
  
 img {
-    margin-top: 10px;
     width: 40%;
 }
