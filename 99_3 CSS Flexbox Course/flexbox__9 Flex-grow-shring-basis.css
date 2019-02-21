@@ -1,0 +1,36 @@
+
+/* Flexbox CSS     ________________________________*/
+
+/* 9. Flex  grow, shrink, basis   */
+
+/* ---->   HTML nur mit 2 <div>'s home and logout  */
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+/*  flex property    a b c  are equal   
+    a)  flex: 1;
+    b)  flex: 1 1 0;
+    c)  flex-grow: 1;       = how the item grow when screen increases
+        flex-shrink: 1;     = how the item shrink when screen decreases
+        flex-basis: 0;      = like "width"
+*/
+  
+
+/* following means: when screen increases and item get bigger than 200px
+                    the "logout"-item grows 10x faster than "home"-item  */
+.home {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* same in short:  flex: 1 1 200px;   */
+}
+
+.logout {
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* same in short:  flex: 10 5 200px;   */
+}

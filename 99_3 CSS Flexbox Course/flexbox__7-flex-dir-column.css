@@ -1,0 +1,13 @@
+
+/* Flexbox CSS    ________________________________*/
+
+/* 7. Flex Direction Column  (= top to bottom)  */
+
+.container {
+    border: 5px solid #ffcc5c;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

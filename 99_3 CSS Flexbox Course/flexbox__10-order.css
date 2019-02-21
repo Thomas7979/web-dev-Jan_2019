@@ -1,0 +1,23 @@
+
+/* Flexbox CSS     ________________________________*/
+
+/* 10. Order       */
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+/* order default = 0:   "1 Home"  "2 Search"  "3 Logout"
+/*   this example change the order to  "3 Logout" "2 Search" "1 Home"  */
+.home {
+    order: 1;
+}
+
+.search {
+    order: 0;
+}
+
+.logout {
+    order: -1;
+}

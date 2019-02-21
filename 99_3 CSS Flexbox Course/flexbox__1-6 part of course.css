@@ -1,0 +1,65 @@
+
+/* Flexbox CSS  Part 1 of course  ________________________________*/
+
+.container {
+    height: 100%;
+    align-items: center;  /* control content inside cross axis (vertical) */
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: row;   /* row=default -> main axis from left to right */
+    
+    /*----------*/
+    /* control content inside main axis  (horizontal)
+          with some standard settings: */
+    /* justify-content: space-between; */   /* flex-start=default -> left */
+    
+    /*----------*/
+    /* control content inside main axis
+          with manual/customized settings:  */
+    
+    /*----------*/
+    /* margin single Items  */
+    /* .search {
+     margin-right: auto;
+        } */
+}
+
+
+/* flex-property */
+
+/*  example 1 ---------*/
+/* .container > div {  */
+/*  flex: 1;           */  /* for responsive: 1=all items with same size   (better than width) */
+/*  }                  */
+
+/*  .container .search {  */
+/*   flex: 2;             */  /* for responsive: only item "search" with double size (other items as before) */
+/*   }                    */
+/*  end  example 1  */
+
+
+/*  example 2 ---------*/
+/* only first item (home) and last item (logout) as responsive: */
+
+/*
+.home {
+    flex: 1;
+}
+
+.logout {
+    flex: 1;
+}
+*/
+
+/*  end  example 2  */
+
+
+
+/*  align item  (vertical)*/
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self: flex-end;
+}

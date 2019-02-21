@@ -1,0 +1,14 @@
+
+/* Flexbox CSS   ________________________________*/
+
+/* 8. Wrapping up   */
+
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-wrap: wrap;       /*  nowrap = default  */
+}
+
+.container div {
+    width: 300px;
+}
