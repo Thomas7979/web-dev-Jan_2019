@@ -1,5 +1,6 @@
 
 <!-- grids -->
+<!-- 12 columns  -->
 
 <!doctype html>
 <html lang="en">
@@ -12,9 +13,133 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Tutorial Bootstrap 4 - grids 3</title>
+    
+    <style>
+      /* Bootstrap responsive breakpoints */
+      body {
+          background: aqua
+      }
+      /* breakpoint:  small  (sm)   */
+      @media screen and (min-width: 576px) {
+          body {
+              background: orange
+          }
+      }
+      
+      /* breakpoint:  medium  (md)   */
+      @media screen and (min-width: 768px) {
+          body {
+              background: rgb(47, 255, 64)
+          }
+      }
+  
+      /* breakpoint:  large  (lg)   */
+      @media screen and (min-width: 992px) {
+          body {
+              background: yellow
+          }
+      }
+      
+      /* breakpoint:  extra large  (xl)   */
+      @media screen and (min-width: 1200px) {
+          body {
+              background: rgb(119, 119, 240)
+          }
+      }
+  </style>
+
   </head>
 
   <body>
+    <!-- grids -->
+    <!-- 12 columns  -->
+    
+    <!-- only "col" means all 12 columns are used-->
+    <h6>a) 1 single columne (only "col") and "container"</h6>
+    <div class="container">
+      <div class="row">
+        <div class="col bg-warning">
+            I'm a single column
+        </div>
+      </div>   
+    </div>
+
+    <br>
+    
+    <!-- 2x2 only "col" inside class="row" means
+         the 12 columns are divided by 2:
+         Row 1: first  "col" use 6 columns 
+                second "col" use the other 6 columns
+         Row 1: first  "col" use 6 columns 
+                second "col" use the other 6 columns  -->
+    <h6>b) 4 single columnes (only "col") and "container-fluid"</h6>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-info">I'm a single column 1</div>
+        <div class="col bg-danger">I'm a single column 2</div>
+        <div class="col bg-warning">I'm a single column 3</div>
+        <div class="col bg-secondary">I'm a single column 4</div>
+      </div>
+    </div>
+
+    <br>
+
+    <!--  changing columns depending on breakpoints  -->
+    <!--  sm=small / md=medium / lg=large / xl=extra large  -->
+    <h6>c) 4 single columnes with changing columns depending on breakpoints</h6>
+    <div class="container-fluid">
+      <div class="row">
+            <!-- 1. & 2. line = always 12 columns -->
+            <!-- 3. & 4. line = always 12 columns  (except last line)  -->
+            <!-- Result: from small breakpoint on two lines  -->
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-4 bg-info">I'm a single column 1</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-4 bg-danger">I'm a single column 2</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-4 bg-warning">I'm a single column 3</div>
+            <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-secondary">I'm a single column 4</div>
+                <!--  3x col-xl-4 and 1x col-xl-3  = 15 columns  -->
+                <!--  Result 1 Row (Line) with 4x3 columns  (12/4) -->
+                <!--         1 Row (Line) with 1x4 columns  (12/3) -->
+      </div>
+    </div>
+
+    <br>
+
+    <!--  changing columns depending on breakpoints  -->
+    <!--  with different amounts of columnts  -->
+    <!--  sm=small / md=medium / lg=large / xl=extra large  -->
+    <h6>d) 4 single columnes with changing columns depending on breakpoints</h6>
+    <h6>    with different amounts of columns</h6>
+    <div class="container-fluid">
+      <div class="row">
+            <!-- 1. & 2. line = always 12 columns -->
+            <!-- 3. & 4. line = always 12 columns -->
+            <!-- Result: from small breakpoint on two lines  -->
+            <div class="col-sm-7 col-md-10 col-lg-3 col-xl-9 bg-info">I'm a single column 1</div>
+            <div class="col-sm-5 col-md-2 col-lg-9 col-xl-3 bg-danger">I'm a single column 2</div>
+            <div class="col-sm-8 col-md-1 col-lg-7 col-xl-2 bg-warning">I'm a single column 3</div>
+            <div class="col-sm-4 col-md-11 col-lg-5 col-xl-10 bg-secondary">I'm a single column 4</div>
+        </div>
+    </div>
+  
+    <br>
+
+    <!--  nested rows  -->
+    <h6>e) nested row</h6>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-3 bg-info">I am three</div>
+        <div class="col-sm-6 bg-warning">I am six</div>
+        <div class="col-sm-3 bg-secondary text-white">I am three
+            <div class="row">
+              <div class="col-sm-5 bg-primary">subRow 5</div>
+              <div class="col-sm-7 bg-danger">subRow 7</div>    
+            </div>
+        </div>
+      </div>
+
+    </div>
+
 
     <!-- ==========================================================  -->
     <!-- Optional JavaScript -->
