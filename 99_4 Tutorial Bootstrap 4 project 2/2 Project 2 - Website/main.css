@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+.clHeight {
+    min-height: 100vh;
+}
+
+.clTitle-Underline {
+    width: 200px;
+    height: 9px;
+    margin: 0 auto;
+    /* background-color: coral !important;  with !important the Bootstrap can be overruled */
+}
+
+.clHeight-80 {
+    min-height: 80vh;
+}
+
+.clAbout-Picture {
+    background: url(./img/bcg-arc-womaninred.jpeg)center/cover no-repeat fixed;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  */
+}
