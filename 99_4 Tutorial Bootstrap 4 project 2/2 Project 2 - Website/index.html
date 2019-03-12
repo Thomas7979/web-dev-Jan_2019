@@ -21,7 +21,36 @@
   </head>
 
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light navbar-expand-sm py-3 bg-primary">
+      <!-- Brand-icon or text (left-side) -->
+      <a href="#" class="navbar font-italic text-dark text-uppercase">first website</a>
+      <!-- hamburger-icon (right-side) -->
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- some links  (same id like in hamburger-icon -->
+      <div class="collapse navbar-collapse" id="myNavbarLinks">
+        <ul class="navbar-nav">
+          <li class="navbar-item active">
+            <a href="#header" class="nav-link">home</a>
+          </li>
+          <li class="navbar-item">
+              <a href="#skills" class="nav-link">skills</a>
+          </li>
+          <li class="navbar-item">
+              <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="navbar-item">
+              <a href="#projects" class="nav-link">projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
     <!-- ============================================================================= -->
+    
+    <!-- header -->
     <header id="header" class="bg-dark">
         <div class="container">
             <div class="row clHeight align-items-center">
@@ -591,6 +620,186 @@
     <!-- end of progress section -->
     <!-- ============================================================================= -->
 
+    <!-- pricing section -->
+    <section id="pricing" class="py-5 bg-secondary">
+    
+      <div class="container-fluid">
+        
+        <!-- title -->
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h1 class="mb-0 display-4 text-light text-uppercase">pricing</h1>
+            <div class="clTitle-Underline bg-primary"></div>
+          </div>
+        </div>
+        <!-- end of title -->
+      
+        <!-- 3 pricing cards -->
+        <div class="row">
+
+          <!-- card 1 -->
+          <div class="col md-4 my-4">
+            <div class="card">
+              <!-- card header -->
+              <div class="card-header bg-primary py-4 text-center text-white text-uppercase">
+                <h3>standard</h3>
+              </div>
+              <!-- card title -->
+              <card-title class="my-3 text-center">
+                <h4>
+                  <sup>$</sup>
+                  5
+                  <sub>/month</sub>
+                </h4>
+              </card-title>
+              <!-- list -->
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Lorem, ipsum dolor.</li>
+                <li class="list-group-item">2 Lorem, ipsum dolor.</li>
+                <li class="list-group-item">3 Lorem, ipsum dolor.</li>
+              </ul>
+              <!-- card footer -->
+              <div class="card-footer">
+                <a href="#" class="btn btn-outline-dark btn-block text-center">sign up</a>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 1 -->
+
+          <!-- card 2 -->
+          <div class="col md-4 my-4">
+            <div class="card">
+              <!-- card header -->
+              <div class="card-header bg-primary py-4 text-center text-white text-uppercase">
+                <h3>standard</h3>
+              </div>
+              <!-- card title -->
+              <card-title class="my-3 text-center">
+                <h4>
+                  <sup>$</sup>
+                  5
+                  <sub>/month</sub>
+                </h4>
+              </card-title>
+              <!-- list -->
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Lorem, ipsum dolor.</li>
+                <li class="list-group-item">2 Lorem, ipsum dolor.</li>
+                <li class="list-group-item">3 Lorem, ipsum dolor.</li>
+              </ul>
+              <!-- card footer -->
+              <div class="card-footer">
+                <a href="#" class="btn btn-outline-dark btn-block text-center">sign up</a>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 2 -->
+  
+          <!-- card 3 -->
+          <div class="col md-4 my-4">
+              <div class="card">
+                <!-- card header -->
+                <div class="card-header bg-primary py-4 text-center text-white text-uppercase">
+                  <h3>pro</h3>
+                </div>
+                <!-- card title -->
+                <card-title class="my-3 text-center">
+                  <h4>
+                    <sup>$</sup>
+                    15
+                    <sub>/month</sub>
+                  </h4>
+                </card-title>
+                <!-- list -->
+                <ul class="list-group list-group-flush text-center">
+                  <li class="list-group-item">1 Lorem, ipsum dolor.</li>
+                  <li class="list-group-item">2 Lorem, ipsum dolor.</li>
+                  <li class="list-group-item">3 Lorem, ipsum dolor.</li>
+                </ul>
+                <!-- card footer -->
+                <div class="card-footer">
+                  <a href="#" class="btn btn-outline-dark btn-block text-center">sign up</a>
+                </div>
+              </div>
+            </div>
+            <!-- end of card 3 -->
+        </div>
+        <!-- end of 3 pricing cards -->
+
+      </div>
+    </section>
+    <!-- end of pricing section -->
+    <!-- ============================================================================= -->
+
+
+    <!-- footer section -->
+    <footer id="footer" class="py-5 bg-dark">
+
+      <div class="container">
+           
+        <!-- title -->
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="mb-0 display-4 text-white text-uppercase">footer</h1>
+            <div class="clTitle-Underline bg-primary"></div>
+            <p class="mt-2 text-muted text-capitalize">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <!-- end of title -->
+  
+        <div class="row">
+          <div class="col text-center">
+            <a href="#" class="btn">
+              <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+            </a>
+            <a href="#" class="btn">
+              <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+            </a>
+            <a href="#" class="btn">
+              <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+            </a>
+            <a href="#" class="btn">
+              <i class="fab fa-google fa-3x text-primary m-2"></i>
+            </a>
+            <button type="button" class="btn btn-danger d-block mx-auto my-3" data-toggle="modal" data-target="#myModal">log out</button>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- end of footer section -->
+    <!-- ============================================================================= -->
+    
+    <!-- modal   (preferible at the end of the document) -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- modal header -->
+          <div class="modal-header">
+            <h3 class="modal-title">sorry to see you leave</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;    <!-- = für x-icon -->
+            </button>
+          </div>
+
+          <!-- modal body -->
+          <div class="modal-body">
+            <p>this is some random text in the modal body</p>
+          </div>
+
+          <!-- modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- end of modal -->
+    <!-- ============================================================================= -->
+
+  
     <!-- ==========================================================  -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
