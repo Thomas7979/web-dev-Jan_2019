@@ -1,0 +1,38 @@
+body {
+    font-size: 14px;
+}
+
+.clBtn {
+    font-size: 14px;
+}
+
+.clHeight {
+    min-height: 68vh;
+}
+
+.clBgGray {
+    background-color: #f2f2f2;
+}
+
+#inputSearch {
+    height: 46px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-right: none;
+}
+
+.input-group-append span {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}

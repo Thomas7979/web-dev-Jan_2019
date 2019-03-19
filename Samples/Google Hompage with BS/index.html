@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Google with BS</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container-fluid py-4">
+        <nav class="row">
+          <div class="col-md-6">
+            <a href="https://about.google/" class="mx-3 text-dark">About</a>
+            <a href="https://store.google.com/" class="text-dark">Store</a>
+          </div>
+          <div class="col-md-6 text-right">
+            <a href="https://mail.google.com" class="mr-3 text-dark">Gmail</a>
+            <a href="https://www.google.co.in/imghp?hl=en&tab=wi" class="mr-3 text-dark">Images</a>
+            <a href="https://www.google.co.in/maps/@18.5076834,73.8007225,15z?hl=en">
+              <img src="images/Google_Logo_Maps.png" class="img-fluid mr-3" style="width: 30px" id="imgMaps" alt="Logo maps">
+            </a>
+          </div>
+       </nav> 
+      </div>
+    </header>
+
+    <main id="search" class="bg-white">
+      <div class="container">
+        <div class="row clHeight align-items-center">
+          <div class="col text-center">
+
+            <img src="images/Google_Logo_elephant.jpg" class="img-fluid mb-4" style="width: 300px" alt="google logo">
+            
+            <div class="form-group">
+              <div class="input-group w-50 mx-auto">
+                <input type="text" class="form-control shadow" id="inputSearch">
+                <div class="input-group-append">
+                    <span class="input-group-text bg-white shadow">
+                      <img src="images/Google_mic_Logo_Vector.png" style="width: 17px" alt="mic logo">
+                    </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5">
+              <button class="btn mr-2 clBgGray clBtn">Google Search</button>
+              <button class="btn clBgGray clBtn">I'm feeling Lucky</button>
+            </div>
+
+            <div class="mt-4">
+              <p class="text-dark">Google offered in:
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAc" class="mx-2 text-dark">हिन्दी</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAg" class="mr-2 text-dark">বাংলা</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAk" class="mr-2 text-dark">తెలుగు</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAo" class="mr-2 text-dark">मराठी</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAs" class="mr-2 text-dark">தமிழ்</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCAw" class="mr-2 text-dark">ગુજરાતી</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCA0" class="mr-2 text-dark">ಕನ್ನಡ</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCA4" class="mr-2 text-dark">മലയാളം</a>
+                <a href="https://www.google.com/setprefs?sig=0_ydM5Zbywv28Pf6kBkCKRN-s3Crs%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwivnPz5rovhAhUPXCsKHcOqCvcQ2ZgBCA8" class="mr-2 text-dark">ਪੰਜਾਬੀ</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>   
+    </main>
+
+    <footer id="footer" class="pl-4 py-2 clBgGray">
+      <p class="mb-0 text-muted">India</p>
+      <hr class="my-2">
+      <div>
+        <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="text-muted">Advertising</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" class="ml-4 text-muted">Business</a>
+        <div class="float-right">
+            <a href="" class="mr-4 text-muted">Privacy</a>
+            <a href="" class="mr-4 text-muted">Terms</a>
+            <a href="" class="mr-4 text-muted">Settings</a>
+          </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================================  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
