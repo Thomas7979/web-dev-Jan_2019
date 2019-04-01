@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
     <br> <br> <hr> <hr>
     <h1>Lifecycle</h1>
     <fa-lifecycle *ngIf="!delete" [bindable]="boundValue">
-      <p>{{textContent}}</p>
+      <p #boundContent>{{textContent}}</p>
     </fa-lifecycle>
     <button (click)="delete = true">Click to delete text above</button>
     <button (click)="textContent = 'changed value'">Click to change Content</button>
