@@ -1,8 +1,14 @@
 import { Component } from '@angular/core';
+import { preserveWhitespacesDefault } from '@angular/compiler';
 
 @Component ({
     selector: 'app-server',
-    templateUrl: './server.component.html'
+    templateUrl: './server.component.html',
+    styles: [`
+        .clOnline {
+            color: orange;
+        }
+    `]
 })
 
 export class ServerComponent {

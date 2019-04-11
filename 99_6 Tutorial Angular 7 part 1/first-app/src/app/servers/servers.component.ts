@@ -10,6 +10,7 @@ export class ServersComponent implements OnInit {
   serverCreationStatus: string = 'No server was created!';
   serverName: string = '';
   serverCreated: boolean = false;
+  servers = ['Testserver 1', 'Testserver 2'];
 
   constructor() {
     setTimeout(() => {
@@ -22,6 +23,7 @@ export class ServersComponent implements OnInit {
 
   onCreateServer() {
     this.serverCreated = true;
+    this.servers.push(this.serverName);
 
     // deactivated for use of *ngIf below after button
     //  this.serverCreationStatus = 'Server was created! Name is ' + this.serverName;
