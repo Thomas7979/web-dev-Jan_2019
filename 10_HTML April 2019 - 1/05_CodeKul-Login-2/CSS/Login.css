@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.LoginCard {
+    width: 320px;
+    margin: 90px auto 0px;
+    background-color: rgb(247, 242, 242);
+    /* background-image: url(/images/business-without-degree.jpg);
+    opacity: 0.3; */
+    text-align: center;
+    color: #2060e9e8;
+}
+
+h1 {
+    padding: 75px 0px 50px;
+    font-weight: 100;
+}
+
+input {
+    width: 190px;
+}
+
+.inputLine {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 41px; 
+}
+
+.inputIcons {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid #2060e9e8;
+    border-radius: 100%;
+}
+
+form i {
+    margin-top: 4px;
+}
+
+input[type=text], input[type=password] { 
+    border: none;
+    border-bottom: 1px solid rgb(94, 107, 228);
+    background: transparent;
+    color: grey;
+    font-size: 16px;
+    padding-left: 8px;
+  }
+
+  input[type=submit] {
+    width: 240px;
+    margin: 40px 0px 0px;
+    background-color: #2060e9e8;
+    color: lightgrey;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+
+  input[type=button] {
+    margin: 8px 0px;
+    width: 240px;
+    background-color: transparent;
+    color: #2060e9e8;
+    padding: 8px 20px;
+    border: 1px solid #2060e9e8;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+
+  a {
+      text-decoration: none;
+      color: #2060e978;
+  }
+
+  footer {
+    padding-top: 7px;
+    padding-bottom: 40px;
+  }
+
+  .footerSignIn {
+      text-align: center;
+  }
+
+  ul {
+      display: flex;
+      padding-left: 89px;
+  }
+
+  li {
+      list-style-type: none;
+      padding: 5px 8px 10px 8px; 
+  }
+
+  .footerIcons {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    border: 1px solid #2060e9e8;
+    border-radius: 100%;
+}
+
+footer i {
+    margin-top: -4px;
+}
+
+.fa-google-plus-g {
+    margin-left: -2px;
+} 
+
+.bgBlue {
+    background-color: #2060e9e8;
+    color: white;
+}
