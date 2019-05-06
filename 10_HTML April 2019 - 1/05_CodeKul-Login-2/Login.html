@@ -11,47 +11,78 @@
 </head>
 
 <body>
-    <div class="LoginCard">
-        <h1>YOUR LOGO</h1>
-        <div class="LoginForm">
-            <form>
-                <div class="inputLine">
-                    <div class="inputIcons">
-                        <i class="far fa-user-circle"></i>
+    <div class="cards">
+    <div class="cardsInside">
+
+    <!--  sign in  --------------------------------------------------------------------->
+        <div class="LoginCard">
+            <h1>YOUR LOGO</h1>
+            <div class="LoginForm">
+                <form>
+                    <div class="inputLine">
+                        <div class="inputIcons">
+                            <i class="far fa-user-circle"></i>
+                        </div>
+                        <input type="text">
                     </div>
-                    <input type="text">
-                </div>
 
-                <div class="inputLine">
-                    <div class="inputIcons">
-                        <i class="fas fa-unlock-alt"></i>
+                    <div class="inputLine">
+                        <div class="inputIcons">
+                            <i class="fas fa-unlock-alt"></i>
+                        </div>
+                        <input type="password">
                     </div>
-                    <input type="password">
-                </div>
-                
-                <input type="submit" value="Sign in">
-                <a href="#"><input type="button" value="Sign up"></a>
-            </form>
-        </div>
-
-        <div class="cForgot">
-            <a href="">forgot password?</a>
-        </div>
-
-        <footer>
-            <p>Sign in with</p>
-
-            <div class="footerSignIn">
-                <ul>
-                    <li class="footerIcons"> <i class="fab fa-facebook-f"></i> </li>
-                    <li class="footerIcons bgBlue"> <i class="fab fa-twitter"></i> </li>
-                    <li class="footerIcons"> <i class="fab fa-google-plus-g"></i> </li>
-                </ul>
+                    
+                    <input type="submit" value="Sign in">
+                    <a href="#"><input type="button" value="Sign up"></a>
+                </form>
             </div>
 
-        </footer>
+            <div>
+                <a href="">forgot password?</a>
+            </div>
 
-    </div>
+            <footer>
+                <p>Sign in with</p>
+
+                <div class="footerSignIn">
+                    <ul>
+                        <li class="footerIcons"> <i class="fab fa-facebook-f"></i> </li>
+                        <li class="footerIcons bgBlue"> <i class="fab fa-twitter"></i> </li>
+                        <li class="footerIcons"> <i class="fab fa-google-plus-g"></i> </li>
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
     
+<!-- sign up  ---------------------------------------------------------------------->
+        <div class="signUp">
+            <div class="upperPart">
+                <div class="circle"></div>
+                <div class="imgEdit">
+                    <i class="fas fa-edit"></i>
+                </div>
+            </div>
+            <div class="formPart">
+                <form>
+                    <p>Basic Information</p>
+                    <input type="text" id="xBasic" name="FullName" placeholder="Full Name">
+                    <input type="email" id="xBasic" name="email" placeholder="Email">
+                    <br>
+                    <p>Private Information</p>
+                    <input type="password" id="xPrivate" name="password" placeholder="Password">
+                    <input type="tel" id="xPrivate" name="mobilenumber" placeholder="Mobile">
+                    <br>
+                    <input type="submit" value="Sign-up">
+                </form>
+                <div class="cAccount">
+                    <a href="">Already have an account?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 </body>
 </html>
