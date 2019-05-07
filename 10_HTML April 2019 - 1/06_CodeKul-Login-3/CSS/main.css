@@ -1,0 +1,115 @@
+.bground     {
+    width: 1300px;
+    height: 550px;
+    margin: 15px auto;
+    padding: 80px 0px;
+    background-image: linear-gradient(to bottom right, rgb(168, 167, 167), rgb(39, 39, 39));
+}
+
+.Login {
+    display: flex;
+    margin-left: 145px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card-1, 
+.card-2 {
+    width: 320px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+.card-3 {
+    width: 320px;
+    height: 400px;
+    background-color: white;
+}
+
+.card-1 input {
+    width: 320px;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: #3b84f1e8;
+    color: rgb(238, 238, 238);
+    border-style: none;
+}
+
+.cBottom {
+    background-image: url(/Images/mountains.jpeg);
+    width: 320px;
+    height: 300px;
+}
+
+.logoImage {
+    margin: 0 auto;
+}
+
+img {
+    margin: 40px;
+}
+
+.c2Space {
+    height: 117px;
+}
+
+.c3Space {
+    height: 82px;
+}
+
+.card2Form {
+    padding: 20px 40px 40px 40px;
+    background-color: #3b84f1e8;
+}
+
+.c2Form {
+    margin-top: 20px;
+}
+
+input[type=text],
+input[type=password] {
+    margin-bottom: 22px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #3b84f1e8;
+    border-style: none;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    color: rgb(218, 216, 216);
+}
+
+input[type=submit] {
+    margin: 8px 0px;
+    width: 240px;
+    background-color: transparent;
+    color: rgb(218, 216, 216);
+    padding: 8px 20px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(218, 216, 216);
+    font-size: 12px;
+}
+
+.cLink {
+    text-align: center;
+}
+
+label {
+    color: rgb(218, 216, 216);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    color: rgb(218, 216, 216);
+}
